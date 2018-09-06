@@ -22,7 +22,7 @@ import PropTypes from 'prop-types';
     size: "regular"
   }
 }
- Order.PropTypes = {
+ Order.propTypes = {
   cone: PropTypes.bool,
   size: PropTypes.String,
   scoops: PropTypes.arrayOf(PropTypes.string).isRequired,
